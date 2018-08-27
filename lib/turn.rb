@@ -4,7 +4,7 @@ def turn(board)
   index = (gets.strip).to_i
   
   if(valid_move?(board,index))
-    move(board)
+    move(board,index)
   else
     until valid_move?(board,index)
       puts "Please enter 1-9:"

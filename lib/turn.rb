@@ -3,10 +3,10 @@ def turn(board)
   puts "Please enter 1-9:"
   index = (gets.strip).to_i
   
-  if(valid_move(board,index))
+  if(valid_move?(board,index))
     move(board)
   else
-    until valid_move(board,index)
+    until valid_move?(board,index)
       puts "Please enter 1-9:"
       index = (gets.strip).to_i
      end

@@ -4,6 +4,8 @@ def turn(board)
   input = to_i(gets.strip)
   
   if(valid_move(board,index))
+    move(board)
+  end
   
 end
 

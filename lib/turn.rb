@@ -7,8 +7,8 @@ def turn(board)
     move(board)
   else
     until valid_move(board,index)
-    puts "Please enter 1-9:"
-    input = to_i(gets.strip)
+      puts "Please enter 1-9:"
+      input = to_i(gets.strip)
      end
   end
     

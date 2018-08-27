@@ -5,6 +5,8 @@ def valid_move?(board, index)
     return false;
   elsif(index < board.length)
     return true;
+  else 
+    return false;
   end
   
 end

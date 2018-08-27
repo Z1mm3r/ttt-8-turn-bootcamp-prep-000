@@ -1,5 +1,5 @@
 
-def turn
+def turn(board)
   
 end
 
